@@ -1,12 +1,140 @@
-<<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
-    
-    </body>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refaccionaria El Pistón</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <link href="../CSS/css.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark menu">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <i class="fa-solid fa-car"></i> El Pistón
+                </a>
+
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                    aria-controls="menuPrincipal" aria-expanded="false"
+                    aria-label="Abrir menú">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link activo" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portada">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <p class="texto-rojo">REFACCIONES PARA TU AUTOMÓVIL</p>
+                        <h1>Todo lo que tu auto necesita</h1>
+                        <p class="descripcion">
+                            Encuentra refacciones y productos para el mantenimiento
+                            de tu vehículo. Te ayudamos a encontrar la pieza que buscas.
+                        </p>
+
+                        <a href="productos.html" class="btn boton-rojo">
+                            Ver productos
+                        </a>
+                        <a href="contacto.html" class="btn boton-borde">
+                            Contáctanos
+                        </a>
+                    </div>
+
+                    <div class="col-lg-5 mt-4 mt-lg-0">
+                        <img
+                            src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=900&q=80"
+                            class="img-fluid imagen-portada"
+                            alt="Herramientas y piezas para el mantenimiento de automóviles">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion">
+            <div class="container">
+                <div class="text-center mb-4">
+                    <h2>¿Qué necesitas para tu auto?</h2>
+                    <p>Conoce algunas de las opciones que tenemos para ti.</p>
+                </div>
+
+                <div class="row g-4">
+                    <article class="col-md-4">
+                        <div class="tarjeta">
+                            <i class="fa-solid fa-oil-can icono"></i>
+                            <h3>Aceites y lubricantes</h3>
+                            <p>Productos para el cuidado y mantenimiento del motor.</p>
+                        </div>
+                    </article>
+
+                    <article class="col-md-4">
+                        <div class="tarjeta">
+                            <i class="fa-solid fa-gear icono"></i>
+                            <h3>Refacciones</h3>
+                            <p>Piezas para diferentes necesidades de tu automóvil.</p>
+                        </div>
+                    </article>
+
+                    <article class="col-md-4">
+                        <div class="tarjeta">
+                            <i class="fa-solid fa-screwdriver-wrench icono"></i>
+                            <h3>Asesoría</h3>
+                            <p>Te orientamos para encontrar la refacción adecuada.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="llamada">
+            <div class="container text-center">
+                <h2>¿Buscas una refacción?</h2>
+                <p>Envíanos tu consulta y dinos qué pieza necesitas.</p>
+                <a href="contacto.html" class="btn boton-rojo">
+                    Solicitar información
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <div class="container text-center">
+            <p>Refaccionaria El Pistón</p>
+            <p>Proyecto escolar de desarrollo web.</p>
+            <p class="mb-0">&copy; 2026 El Pistón. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../JS/scrypt.js"></script>
+</body>
 </html>
