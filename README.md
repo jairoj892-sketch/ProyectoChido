@@ -37,3 +37,9 @@ Se creó la página de servicios de la Refaccionaria El Pistón para presentar l
 
 También se agregó un enlace a la página de contacto para facilitar que los visitantes puedan solicitar información. Para mantener el diseño uniforme del sitio, se reutilizó el menú de navegación y se creó el archivo `servicios.css`, donde se establecieron los tamaños de las imágenes, el diseño de las tarjetas, los colores y los ajustes para dispositivos móviles.
 
+## Apartado Nosotros
+
+Se creó la página Nosotros para presentar la identidad y los objetivos de Refaccionaria El Pistón. Se incluyó información general sobre el negocio, así como los apartados de misión, visión y valores. También se agregó una imagen relacionada con la refaccionaria y un enlace a la página de contacto.
+
+Para mantener el diseño uniforme, se reutilizó el menú de navegación y se creó el archivo `nosotros.css`. En este archivo se definieron el tamaño de la imagen, la distribución de los textos, el diseño de las tarjetas y los ajustes necesarios para adaptar la página a dispositivos móviles.
+
