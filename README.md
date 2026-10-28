@@ -43,3 +43,10 @@ Se creó la página Nosotros para presentar la identidad y los objetivos de Refa
 
 Para mantener el diseño uniforme, se reutilizó el menú de navegación y se creó el archivo `nosotros.css`. En este archivo se definieron el tamaño de la imagen, la distribución de los textos, el diseño de las tarjetas y los ajustes necesarios para adaptar la página a dispositivos móviles.
 
+## Apartado de contacto y validación del formulario
+
+Se creó la página de Contacto para permitir que los visitantes proporcionen sus datos y describan qué productos o servicios necesitan. Se incluyó un cuestionario con campos para el nombre, correo electrónico, tipo de consulta, importancia de recibir asesoría y descripción de la solicitud.
+
+Se desarrolló la validación del formulario mediante HTML y JavaScript para comprobar que los campos obligatorios estén completos y que las respuestas cumplan con las condiciones establecidas. También se agregaron mensajes para informar al usuario si debe corregir algún dato o si completó el formulario correctamente.
+
+Para el diseño se creó el archivo `contacto.css`, donde se definieron los tamaños de los campos, los colores, los botones y la adaptación a dispositivos móviles. Además, se incorporó una sección con acceso a Google Maps para consultar ubicaciones.
