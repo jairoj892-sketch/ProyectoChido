@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | Refaccionaria El Pistón</title>
+
+    <link rel="stylesheet" href="../CSS/css.css">
+    <link rel="stylesheet" href="../CSS/contacto.css">
+
+    <script src="../JS/contacto.js" defer></script>
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor-menu">
+            <h1>Refaccionaria El Pistón</h1>
+
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="productos.html">Productos</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="presentacion-contacto">
+            <h2>Contáctanos</h2>
+
+            <p>
+                ¿Buscas una refacción o necesitas información?
+                Completa el siguiente formulario y cuéntanos qué necesitas.
+            </p>
+        </section>
+
+        <section class="seccion-formulario">
+            <h2>Cuestionario de atención</h2>
+
+            <p class="texto-formulario">
+                Los campos marcados con * son obligatorios.
+            </p>
+
+            <form id="formulario-contacto">
+
+                <div class="campo-formulario">
+                    <label for="nombre">Nombre completo *</label>
+                    <input type="text" id="nombre" name="nombre"
+                           required minlength="3" maxlength="60"
+                           placeholder="Escribe tu nombre">
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="correo">Correo electrónico *</label>
+                    <input type="email" id="correo" name="correo"
+                           required maxlength="100"
+                           placeholder="ejemplo@correo.com">
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="tema">¿Sobre qué necesitas información? *</label>
+
+                    <select id="tema" name="tema" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="Productos">Productos y refacciones</option>
+                        <option value="Aceites">Aceites y lubricantes</option>
+                        <option value="Baterias">Baterías y accesorios</option>
+                        <option value="Servicios">Servicios y asesoría</option>
+                        <option value="Otro">Otro tema</option>
+                    </select>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="satisfaccion">
+                        ¿Qué tan importante es recibir asesoría? *
+                    </label>
+
+                    <select id="satisfaccion" name="satisfaccion" required>
+                        <option value="">Selecciona una respuesta</option>
+                        <option value="Muy importante">Muy importante</option>
+                        <option value="Importante">Importante</option>
+                        <option value="Poco importante">Poco importante</option>
+                    </select>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="mensaje">Describe lo que necesitas *</label>
+
+                    <textarea id="mensaje" name="mensaje"
+                              required minlength="10" maxlength="500"
+                              rows="5"
+                              placeholder="Escribe tu duda o el nombre de la refacción..."></textarea>
+                </div>
+
+                <button type="submit" class="boton-contacto">
+                    Enviar respuestas
+                </button>
+
+                <p id="mensaje-formulario" role="status"
+                   aria-live="polite"></p>
+
+            </form>
+        </section>
+
+        <section class="ubicacion-contacto">
+            <h2>Ubicación</h2>
+
+            <p>
+                Consulta el mapa para que quien sabe pero lo queria agregar para que se vea mas bonito
+            </p>
+
+            <a href="https://www.google.com/maps"
+               target="_blank" rel="noopener noreferrer"
+               class="boton-contacto">
+                Consultar Google Maps
+            </a>
+        </section>
+    </main>
+
+    <footer class="pie-contacto">
+        <p>© 2026 Refaccionaria El Pistón</p>
+        <p>Todo para tu auto, en un solo lugar.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+
+/* Presentación */
+.presentacion-contacto {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.presentacion-contacto h2 {
+    color: #c62828;
+    margin-bottom: 15px;
+}
+
+.presentacion-contacto p {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Sección del formulario */
+.seccion-formulario {
+    max-width: 650px;
+    margin: 35px auto;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px #00000015;
+}
+
+.seccion-formulario h2 {
+    color: #c62828;
+    text-align: center;
+    margin-top: 0;
+}
+
+.texto-formulario {
+    color: #555555;
+    font-size: 14px;
+}
+
+/* Campos */
+.campo-formulario {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.campo-formulario label {
+    font-weight: bold;
+    margin-bottom: 7px;
+    color: #333333;
+}
+
+.campo-formulario input,
+.campo-formulario select,
+.campo-formulario textarea {
+    width: 100%;
+    padding: 11px;
+    box-sizing: border-box;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.campo-formulario input:focus,
+.campo-formulario select:focus,
+.campo-formulario textarea:focus {
+    outline: 2px solid #c62828;
+    border-color: #c62828;
+}
+
+.campo-formulario textarea {
+    resize: vertical;
+}
+
+/* Botón */
+.boton-contacto {
+    display: inline-block;
+    background-color: #c62828;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.boton-contacto:hover {
+    background-color: #a51f1f;
+}
+
+/* Mensajes de validación */
+#mensaje-formulario {
+    margin-top: 15px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+/* Ubicación */
+.ubicacion-contacto {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.ubicacion-contacto h2 {
+    color: #c62828;
+}
+
+.ubicacion-contacto p {
+    max-width: 650px;
+    margin: 0 auto 20px;
+    line-height: 1.6;
+}
+
+/* Pie de página */
+.pie-contacto {
+    background-color: #111111;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px;
+}
+
+.pie-contacto p {
+    margin: 6px;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 600px) {
+    .seccion-formulario {
+        width: calc(100% - 30px);
+        margin: 25px auto;
+        padding: 18px;
+    }
+
+    .presentacion-contacto {
+        padding: 30px 15px;
+    }
+
+    .boton-contacto {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
