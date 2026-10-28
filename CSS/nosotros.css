@@ -1,0 +1,157 @@
+
+/* Presentación */
+.presentacion-nosotros {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.presentacion-nosotros h2 {
+    color: #c62828;
+    margin-bottom: 15px;
+}
+
+.presentacion-nosotros p {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Información de la refaccionaria */
+.contenido-nosotros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.texto-nosotros {
+    flex: 1;
+}
+
+.texto-nosotros h2 {
+    color: #c62828;
+    margin-bottom: 15px;
+}
+
+.texto-nosotros p {
+    color: #444444;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+/* Tamaño de la imagen */
+.imagen-nosotros {
+    flex: 1;
+    text-align: center;
+}
+
+.imagen-nosotros img {
+    width: 100%;
+    max-width: 420px;
+    height: 280px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Misión, visión y valores */
+.valores-nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto 30px;
+}
+
+.tarjeta-nosotros {
+    flex: 1;
+    min-width: 220px;
+    max-width: 320px;
+    box-sizing: border-box;
+    padding: 25px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px #00000015;
+}
+
+.tarjeta-nosotros h3 {
+    color: #c62828;
+    margin-bottom: 12px;
+}
+
+.tarjeta-nosotros p {
+    color: #444444;
+    line-height: 1.6;
+}
+
+/* Invitación a contactar */
+.invitacion-nosotros {
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.invitacion-nosotros p {
+    line-height: 1.6;
+}
+
+.boton-nosotros {
+    display: inline-block;
+    background-color: #c62828;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 22px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.boton-nosotros:hover {
+    background-color: #a51f1f;
+}
+
+/* Pie de página */
+.pie-nosotros {
+    background-color: #111111;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px;
+}
+
+.pie-nosotros p {
+    margin: 6px;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 650px) {
+    .contenido-nosotros {
+        flex-direction: column;
+        padding: 30px 18px;
+    }
+
+    .imagen-nosotros img {
+        height: 220px;
+    }
+
+    .valores-nosotros {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tarjeta-nosotros {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .presentacion-nosotros {
+        padding: 30px 15px;
+    }
+}
