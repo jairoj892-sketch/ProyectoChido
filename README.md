@@ -30,3 +30,10 @@ Para mejorar la apariencia de la página, se creó el archivo `productos.css`, d
 Se modificó el archivo `css.css` para mejorar el menú de navegación, agregando separación entre los enlaces, colores uniformes, efectos al pasar el cursor y una distribución vertical para pantallas pequeñas. De esta manera, se busca mantener una apariencia consistente entre las diferentes páginas del sitio.
 
 Finalmente, se agregaron imágenes en formato PNG a la carpeta `IMAGENES` para complementar visualmente los apartados del proyecto. También se registraron los cambios mediante Git, utilizando mensajes de confirmación en español para describir las modificaciones realizadas.
+
+## Apartado de servicios
+
+Se creó la página de servicios de la Refaccionaria El Pistón para presentar las opciones de atención y orientación que ofrece el negocio. Se incluyeron tres secciones: asesoría sobre refacciones, información de productos y atención al cliente. Cada sección contiene un título, una descripción y una imagen relacionada con el tema.
+
+También se agregó un enlace a la página de contacto para facilitar que los visitantes puedan solicitar información. Para mantener el diseño uniforme del sitio, se reutilizó el menú de navegación y se creó el archivo `servicios.css`, donde se establecieron los tamaños de las imágenes, el diseño de las tarjetas, los colores y los ajustes para dispositivos móviles.
+
