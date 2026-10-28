@@ -130,3 +130,60 @@ h1 {
         padding: 40px 0;
     }
 }
+
+/* Encabezado de la página */
+.encabezado {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.contenedor-menu h1 {
+    color: #333333;
+    font-size: 32px;
+    margin: 0 0 20px 0;
+}
+
+/* Barra de navegación */
+.menu {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 12px;
+}
+
+/* Enlaces del menú */
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Efecto al pasar el cursor */
+.menu a:hover {
+    background-color: #c62828;
+    color: #ffffff;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 600px) {
+    .contenedor-menu h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .menu a {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+}
