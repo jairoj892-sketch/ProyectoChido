@@ -1,0 +1,132 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: white;
+}
+
+.menu {
+    background-color: #252525;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link:hover,
+.nav-link.activo {
+    color: #ff514b;
+}
+
+.portada {
+    padding: 60px 0;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.texto-rojo {
+    color: #d9302b;
+    font-weight: bold;
+}
+
+.descripcion {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.imagen-portada {
+    width: 100%;
+    height: 320px;
+    object-fit: contain;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.boton-rojo {
+    background-color: #d9302b;
+    color: white;
+    padding: 11px 20px;
+    margin: 4px;
+}
+
+.boton-rojo:hover {
+    background-color: #a92320;
+    color: white;
+}
+
+.boton-borde {
+    border: 1px solid #333333;
+    color: #333333;
+    padding: 11px 20px;
+    margin: 4px;
+}
+
+.boton-borde:hover {
+    background-color: #333333;
+    color: white;
+}
+
+.seccion {
+    padding: 55px 0;
+}
+
+.tarjeta {
+    height: 100%;
+    padding: 30px 20px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.tarjeta h3 {
+    font-size: 21px;
+    margin: 18px 0 12px;
+}
+
+.tarjeta p {
+    line-height: 1.6;
+}
+
+.llamada {
+    padding: 45px 0;
+    background-color: #f2f2f2;
+}
+
+.pie {
+    padding: 25px 0;
+    color: white;
+    background-color: #252525;
+    text-align: center;
+}
+
+.pie p {
+    margin-bottom: 8px;
+}
+
+@media (max-width: 767px) {
+    .portada {
+        padding: 35px 0;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .imagen-portada {
+        height: 240px;
+        margin-top: 20px;
+    }
+
+    .seccion {
+        padding: 40px 0;
+    }
+}
